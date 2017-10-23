@@ -10,8 +10,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ayushjain.beeradviser.FindBeerActivity">
 
+    <Spinner
+        android:layout_marginTop="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:layout_below="@+id/color"
+        android:layout_alignLeft="@+id/color"
+        android:id="@+id/find_beer"
+        android:text="@string/find_beer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <TextView
-        android:text="@string/app_name"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/find_beer"
+        android:layout_alignLeft="@+id/find_beer"
+        android:id="@+id/brands"
+        android:text="@string/brands"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
